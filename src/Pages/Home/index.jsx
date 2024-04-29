@@ -1,23 +1,22 @@
 import React from "react"
+
+import { Introduction, Header, Specialization } from "../../components"
+import { Container } from "./styles"
 function App() {
   return (
-    <>
+    <Container>
       <header>
-        <h1>Logo</h1>
+        <Header />
       </header>
       <main>
-        <section>Especialização</section>
-        <section>Resultados e exemplos</section>
-        <section>Outros tipos de serviço (ex: sobrancelha)</section>
-        <section>Produtos</section>
-        <section>Sobre</section>
-        <section>Certificações e prêmios</section>
-        <section>Avaliações</section>
-        <section>Principais perguntas</section>
-        <section>Informações adicionais</section>
+        <section>
+          <Introduction />
+        </section>
+        <section>
+          <Specialization />
+        </section>
       </main>
-      <footer>Direitos e informações básicas</footer>
-    </>
+    </Container>
   )
 }
 
