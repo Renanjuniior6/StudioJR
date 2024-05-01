@@ -24,7 +24,10 @@ export const InfoGroup = styled.div`
   flex-direction: column;
   justify-content: center;
   background-color: rgb(245, 245, 247);
-  padding-top: 25px;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
 `
 export const Title = styled.p`
   width: 350px;
@@ -34,5 +37,10 @@ export const Title = styled.p`
 export const InfoText = styled.div`
   h3 {
     color: rgb(1, 140, 171);
+  }
+
+  p {
+    font-size: 0.875rem;
+    margin: 0px 1.25rem 0 1.25rem;
   }
 `

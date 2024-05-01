@@ -23,6 +23,30 @@ export function Specialization() {
           <h3>Ortodontia Preventiva</h3>
           <p>Intervenções precoces para prevenir problemas ortodônticos.</p>
         </InfoText>
+        <InfoText>
+          <h3>Tratamento Discreto</h3>
+          <p>
+            Especialização em opções estéticas para correção de forma discreta e
+            confortável.
+          </p>
+        </InfoText>
+        <InfoText>
+          <h3>Cuidado Infantil</h3>
+          <p>Intervenções precoces para prevenir problemas ortodônticos.</p>
+        </InfoText>
+        <InfoText>
+          <h3>Harmonia Maxilar</h3>
+          <p>
+            Abordagem que visa precisamente corrigir desarmonias na posição dos
+            maxilares.
+          </p>
+        </InfoText>
+        <InfoText>
+          <h3>Integração Cirúrgica</h3>
+          <p>
+            Colaboração com cirurgiões bucomaxilofaciais para casos cirúrgicos.
+          </p>
+        </InfoText>
       </InfoGroup>
     </Container>
   )

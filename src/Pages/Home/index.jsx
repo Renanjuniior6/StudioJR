@@ -1,6 +1,13 @@
 import React from "react"
 
-import { Introduction, Header, Specialization } from "../../components"
+import {
+  Introduction,
+  Header,
+  Specialization,
+  About,
+  AboutSpace,
+  Assessments,
+} from "../../components"
 import { Container } from "./styles"
 function App() {
   return (
@@ -14,6 +21,15 @@ function App() {
         </section>
         <section>
           <Specialization />
+        </section>
+        <section>
+          <About />
+        </section>
+        <section>
+          <AboutSpace />
+        </section>
+        <section>
+          <Assessments />
         </section>
       </main>
     </Container>
