@@ -7,6 +7,8 @@ import {
   About,
   AboutSpace,
   Assessments,
+  AddicionalInformation,
+  Footer,
 } from "../../components"
 import { Container } from "./styles"
 function App() {
@@ -31,7 +33,13 @@ function App() {
         <section>
           <Assessments />
         </section>
+        <section>
+          <AddicionalInformation />
+        </section>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </Container>
   )
 }
