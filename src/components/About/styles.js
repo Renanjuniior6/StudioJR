@@ -10,6 +10,7 @@ export const Container = styled.div`
   img {
     width: 20rem;
     height: 27rem;
+    border-radius: 1.5rem;
   }
 
   button {
@@ -40,5 +41,5 @@ export const BoldText = styled.b`
   font-weight: 900;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  color: rgb(1, 140, 171);
+  color: #f6ae2d;
 `

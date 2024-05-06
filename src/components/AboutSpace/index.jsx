@@ -7,9 +7,9 @@ import { Container, Box, TextGroup, SpaceImg } from "./styles"
 export function AboutSpace() {
   return (
     <Container>
-      <h3>Conheça melhor a Clínica</h3>
+      <h3>Conheça melhor o Studio JR</h3>
       <Box>
-        <SealCheck size={90} style={{ color: "rgb(1, 140, 171)" }} />
+        <SealCheck size={90} style={{ color: "#f6ae2d" }} />
         <TextGroup>
           <b>Ambiente Acolhedor</b>
           <p>
@@ -19,7 +19,7 @@ export function AboutSpace() {
         </TextGroup>
       </Box>
       <Box>
-        <SealCheck size={90} style={{ color: "rgb(1, 140, 171)" }} />
+        <SealCheck size={90} style={{ color: "#f6ae2d" }} />
         <TextGroup>
           <b>Tecnologia de Ponta</b>
           <p>
@@ -29,7 +29,7 @@ export function AboutSpace() {
         </TextGroup>
       </Box>
       <Box>
-        <SealCheck size={90} style={{ color: "rgb(1, 140, 171)" }} />
+        <SealCheck size={90} style={{ color: "#f6ae2d" }} />
         <TextGroup>
           <b>Abordagem Personalizada</b>
           <p>
@@ -39,7 +39,7 @@ export function AboutSpace() {
         </TextGroup>
       </Box>
       <Box>
-        <SealCheck size={90} style={{ color: "rgb(1, 140, 171)" }} />
+        <SealCheck size={90} style={{ color: "#f6ae2d" }} />
         <TextGroup>
           <b>Pós-Tratamento Excepcional</b>
           <p>
@@ -49,7 +49,7 @@ export function AboutSpace() {
         </TextGroup>
       </Box>
       <Box>
-        <SealCheck size={90} style={{ color: "rgb(1, 140, 171)" }} />
+        <SealCheck size={90} style={{ color: "#f6ae2d" }} />
         <TextGroup>
           <b>Agendamento Flexível</b>
           <p>

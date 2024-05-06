@@ -10,7 +10,7 @@ export function Specialization() {
 
       <InfoGroup>
         <Title>
-          Especialidades da <b>Dra. Lauren Mitchell</b>
+          Especialidades de <b>Joyce Rodrigues</b>
         </Title>
         <InfoText>
           <h3>Inovação digital</h3>

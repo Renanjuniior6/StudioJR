@@ -14,11 +14,16 @@ export const TextBox = styled.div`
   flex-direction: column;
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 146%;
     line-height: 2rem;
     font-weight: 900;
-    color: rgb(1, 140, 171);
-    width: 20rem;
+    color: #f6ae2d;
+    width: 120%;
+
+    b {
+      font-weight: 900;
+      color: #808080;
+    }
   }
 `
 export const Text = styled.p`
@@ -40,5 +45,6 @@ export const ImgBox = styled.div`
   img {
     width: 20rem;
     height: 24rem;
+    border-radius: 1.5rem;
   }
 `

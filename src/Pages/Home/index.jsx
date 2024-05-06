@@ -9,6 +9,7 @@ import {
   Assessments,
   AddicionalInformation,
   Footer,
+  Products,
 } from "../../components"
 import { Container } from "./styles"
 function App() {
@@ -29,6 +30,9 @@ function App() {
         </section>
         <section>
           <AboutSpace />
+        </section>
+        <section>
+          <Products />
         </section>
         <section>
           <Assessments />

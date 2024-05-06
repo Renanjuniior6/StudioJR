@@ -1,16 +1,19 @@
 import React from "react"
 
-import Image from "../../../Images/lauren-01.webp"
+import Image from "../../../Images/joyce-01.jpeg"
 import { Container, TextBox, ImgBox, Text, Adress } from "./styles"
 
 export function Introduction() {
   return (
     <Container>
       <TextBox>
-        <h1>SORRIA COM CONFIANÇA</h1>
-        <Text>Sua jornada para um sorriso perfeito começa por aqui!</Text>
+        <h1>
+          VENHA FAZER SEU ALISAMENTO PREMIUM NA <b>JR</b>
+        </h1>
+        <Text>Sua jornada para um cabelo perfeito começa por aqui!</Text>
         <Adress>
-          DRA LAUREN MITCHELL - SÃO JOSÉ DOS CAMPOS - SP CRO 00000 – SP
+          {" "}
+          ST JOYCE RODRIGUES - CAMPO GRANDE - RJ CEP 23059-540 – RJ
         </Adress>
       </TextBox>
       <ImgBox>

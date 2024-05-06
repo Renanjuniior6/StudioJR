@@ -30,13 +30,12 @@ export const InfoGroup = styled.div`
   border-bottom-right-radius: 1.5rem;
 `
 export const Title = styled.p`
-  width: 350px;
   font-size: 1.25rem;
   font-weight: 400;
 `
 export const InfoText = styled.div`
   h3 {
-    color: rgb(1, 140, 171);
+    color: #f6ae2d;
   }
 
   p {

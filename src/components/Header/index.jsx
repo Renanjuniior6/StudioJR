@@ -1,7 +1,7 @@
 import { CalendarDots } from "@phosphor-icons/react"
 import React from "react"
 
-import Logo from "../../../Images/Logo.webp"
+import Logo from "../../../Images/img-hair.png"
 import { Button } from "../Button"
 import { Container, ImgLogo } from "./styles"
 

@@ -13,7 +13,7 @@ export const Container = styled.div`
     font-weight: 900;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: rgb(1, 140, 171);
+    color: #f6ae2d;
     text-align: center;
   }
 `

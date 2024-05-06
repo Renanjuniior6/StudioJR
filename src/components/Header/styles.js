@@ -7,6 +7,6 @@ export const Container = styled.div`
   gap: 1.5625rem;
 `
 export const ImgLogo = styled.img`
-  width: 10rem;
-  height: auto;
+  width: 164px;
+  height: 102px;
 `

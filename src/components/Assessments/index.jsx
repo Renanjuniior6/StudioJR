@@ -6,7 +6,7 @@ import { Container, AssessmentsGroup, StarGroup } from "./styles"
 export function Assessments() {
   return (
     <Container>
-      <h2>VENHA TRANSFORMAR SEU SORRISO!</h2>
+      <h2>VEJA NOSSAS AVALIAÇÕES!</h2>
       <AssessmentsGroup>
         <b>Renan Junior</b>
         <p>

@@ -8,6 +8,7 @@ export const Container = styled.div`
   gap: 0.75rem;
   text-align: center;
   padding: 1.25rem 0 1.25rem 0;
+
   img {
     width: 9rem;
   }
