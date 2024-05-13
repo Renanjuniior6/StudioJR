@@ -1,6 +1,6 @@
 import React from "react"
 
-import Image from "../../../Images/joyce-01.jpeg"
+import Image from "../../../Images/Person/Joyce-05.jpg"
 import { Container, TextBox, ImgBox, Text, Adress } from "./styles"
 
 export function Introduction() {
@@ -17,7 +17,7 @@ export function Introduction() {
         </Adress>
       </TextBox>
       <ImgBox>
-        <img src={Image} />
+        <img src={Image} alt="Joyce" />
       </ImgBox>
     </Container>
   )

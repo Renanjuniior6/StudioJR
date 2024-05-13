@@ -24,7 +24,6 @@ export const Container = styled.div`
 `
 export const Title = styled.h2`
   text-align: center;
-  font-weight: 900;
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 1.25rem;

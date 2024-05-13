@@ -10,6 +10,7 @@ import {
   AddicionalInformation,
   Footer,
   Products,
+  Results,
 } from "../../components"
 import { Container } from "./styles"
 function App() {
@@ -27,6 +28,9 @@ function App() {
         </section>
         <section>
           <About />
+        </section>
+        <section>
+          <Results />
         </section>
         <section>
           <AboutSpace />

@@ -1,14 +1,14 @@
 import { Phone, MapPin, CalendarDots } from "@phosphor-icons/react"
 import React from "react"
 
-import Img from "../../../Images/joyce-03.jpeg"
+import Img from "../../../Images/Person/joyce-03.jpeg"
 import { Button } from "../Button"
 import { Container, Contact } from "./styles"
 
 export function AddicionalInformation() {
   return (
     <Container>
-      <img src={Img} />
+      <img src={Img} alt="imagem-de-joyce" />
       <Contact>
         <h4>Localização e Contato</h4>
         <h3>Studio Joyce Rodrigues - JR</h3>

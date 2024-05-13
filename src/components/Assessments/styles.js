@@ -6,8 +6,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 1.25rem;
   gap: 1.25rem;
+  width: 22rem;
+  margin: auto;
 
   h2 {
     font-weight: 900;

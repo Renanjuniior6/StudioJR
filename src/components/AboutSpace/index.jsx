@@ -1,7 +1,7 @@
 import { SealCheck } from "@phosphor-icons/react"
 import React from "react"
 
-import Saloon from "../../../Images/consultorio-02.webp"
+import Saloon from "../../../Images/General/consultorio-02.webp"
 import { Container, Box, TextGroup, SpaceImg } from "./styles"
 
 export function AboutSpace() {
@@ -58,7 +58,7 @@ export function AboutSpace() {
           </p>
         </TextGroup>
       </Box>
-      <SpaceImg src={Saloon} />
+      <SpaceImg src={Saloon} alt="imagem-do-studio" />
     </Container>
   )
 }

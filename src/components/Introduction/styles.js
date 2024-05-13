@@ -46,5 +46,6 @@ export const ImgBox = styled.div`
     width: 20rem;
     height: 24rem;
     border-radius: 1.5rem;
+    object-fit: cover;
   }
 `

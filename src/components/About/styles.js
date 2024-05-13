@@ -11,6 +11,7 @@ export const Container = styled.div`
     width: 20rem;
     height: 27rem;
     border-radius: 1.5rem;
+    object-fit: cover;
   }
 
   button {

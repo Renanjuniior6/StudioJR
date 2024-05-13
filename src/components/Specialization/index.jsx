@@ -1,12 +1,12 @@
 import React from "react"
 
-import Clinic from "../../../Images/consultorio-01.webp"
+import Clinic from "../../../Images/General/consultorio-01.webp"
 import { Container, ClinicImg, InfoGroup, Title, InfoText } from "./styles"
 
 export function Specialization() {
   return (
     <Container>
-      <ClinicImg src={Clinic} />
+      <ClinicImg src={Clinic} alt="imagem-do-salão" />
 
       <InfoGroup>
         <Title>

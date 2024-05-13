@@ -1,14 +1,14 @@
 import { CalendarDots } from "@phosphor-icons/react"
 import React from "react"
 
-import PersonImg from "../../../Images/joyce-02.jpeg"
+import PersonImg from "../../../Images/Person/joyce-01.jpeg"
 import { Button } from "../Button"
 import { Container, Text, Content, Title, BoldText } from "./styles"
 
 export function About() {
   return (
     <Container>
-      <img src={PersonImg} />
+      <img src={PersonImg} alt="imagem-joyce" />
       <Text>
         <Title>
           Sobre a <b>Joyce Rodrigues</b>

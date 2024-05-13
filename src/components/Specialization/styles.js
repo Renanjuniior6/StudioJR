@@ -17,21 +17,23 @@ export const ClinicImg = styled.img`
 `
 export const InfoGroup = styled.div`
   text-align: center;
-  width: 22.875rem;
+  width: 23rem;
   margin: auto;
   display: flex;
-  gap: 35px;
+  gap: 2.1875rem;
   flex-direction: column;
   justify-content: center;
   background-color: rgb(245, 245, 247);
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding: 2.5rem 0 2.5rem 0;
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 `
 export const Title = styled.p`
   font-size: 1.25rem;
   font-weight: 400;
+  text-align: center;
+  margin: auto;
+  max-width: 23rem;
 `
 export const InfoText = styled.div`
   h3 {
