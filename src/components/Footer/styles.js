@@ -16,5 +16,6 @@ export const Container = styled.div`
   p {
     font-size: 0.75rem;
     line-height: 1rem;
+    max-width: 98%;
   }
 `

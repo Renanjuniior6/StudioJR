@@ -10,6 +10,7 @@ import hr1 from "../../../Images/Hair/hair-01.jpg"
 import hr2 from "../../../Images/Hair/hair-02.jpg"
 import hr3 from "../../../Images/Hair/hair-03.jpg"
 import hr4 from "../../../Images/Hair/hair-04.jpg"
+import hr5 from "../../../Images/Hair/hair-06.jpg"
 import { Container, Box, Title } from "./styles"
 import "swiper/css"
 import "swiper/css/pagination"
@@ -55,6 +56,12 @@ export function Results() {
           {" "}
           <Box>
             <img src={hr4} alt="Exemplo de cabelo" />
+          </Box>
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <Box>
+            <img src={hr5} alt="Exemplo de cabelo" />
           </Box>
         </SwiperSlide>
       </Swiper>
