@@ -35,6 +35,7 @@ export const Title = styled.h2`
   justify-content: center;
   align-items: center;
   margin-top: 1.25rem;
+  font-weight: 600;
 `
 
 export const Box = styled.div`

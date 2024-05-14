@@ -11,6 +11,8 @@ import {
   Footer,
   Products,
   Results,
+  Services,
+  Certificates,
 } from "../../components"
 import { Container } from "./styles"
 function App() {
@@ -36,7 +38,13 @@ function App() {
           <AboutSpace />
         </section>
         <section>
+          <Services />
+        </section>
+        <section>
           <Products />
+        </section>
+        <section>
+          <Certificates />
         </section>
         <section>
           <Assessments />
