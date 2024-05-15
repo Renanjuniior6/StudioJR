@@ -13,6 +13,7 @@ import {
   Results,
   Services,
   Certificates,
+  MainQuestions,
 } from "../../components"
 import { Container } from "./styles"
 function App() {
@@ -48,6 +49,9 @@ function App() {
         </section>
         <section>
           <Assessments />
+        </section>
+        <section>
+          <MainQuestions />
         </section>
         <section>
           <AddicionalInformation />

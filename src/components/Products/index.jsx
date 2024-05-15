@@ -16,6 +16,7 @@ export function Products() {
   return (
     <Container>
       <Title>CONHEÇA NOSSOS PRODUTOS</Title>
+      <hr />
       <Swiper
         slidesPerView={1}
         spaceBetween={"3.75rem"}

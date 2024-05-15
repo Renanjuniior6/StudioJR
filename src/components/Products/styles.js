@@ -1,6 +1,12 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+  hr {
+    margin: auto;
+    width: 50%;
+    border: 1px solid #000;
+    margin-bottom: 1.875rem;
+  }
   .mySwiper {
     height: 21.875rem;
     width: 21.875rem;
@@ -29,6 +35,7 @@ export const Title = styled.h2`
   margin-bottom: 1.25rem;
   display: flex;
   justify-content: center;
+  font-weight: 600;
 `
 
 export const BoxProduct = styled.div`
