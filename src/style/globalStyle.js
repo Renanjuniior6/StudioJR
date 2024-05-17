@@ -10,4 +10,8 @@ export default createGlobalStyle`
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 `

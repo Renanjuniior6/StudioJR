@@ -19,7 +19,7 @@ import { Container } from "./styles"
 function App() {
   return (
     <Container>
-      <header>
+      <header id="home">
         <Header />
       </header>
       <main>
@@ -29,7 +29,7 @@ function App() {
         <section>
           <Specialization />
         </section>
-        <section>
+        <section id="about">
           <About />
         </section>
         <section>
