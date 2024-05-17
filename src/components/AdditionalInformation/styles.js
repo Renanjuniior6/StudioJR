@@ -10,7 +10,7 @@ export const Container = styled.div`
     width: 23rem;
     height: 17rem;
     margin-bottom: 0.75rem;
-    border-radius: 1.5rem;
+    border-radius: 0.625rem;
   }
 
   button {

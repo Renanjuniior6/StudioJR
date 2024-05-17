@@ -2,6 +2,6 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   section {
-    margin-bottom: 3.125rem;
+    margin-bottom: 5.125rem;
   }
 `

@@ -32,21 +32,29 @@ export const Box = styled.div`
   gap: 0.1875rem;
   width: 85%;
   margin: auto;
+  margin-bottom: 0.1875rem;
 `
 
-export const QuestionBox = styled.span`
+export const QuestionBox = styled.button`
+  border: none;
   background-color: #272727;
   color: #fff;
   padding: 0.625rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 12%;
+  text-align: center;
+  position: relative;
+  border-radius: 0.625rem;
+
+  svg {
+    position: absolute;
+    right: 0.625rem;
+    transform: rotate(45deg);
+  }
 `
 
 export const AnswerBox = styled.div`
   background-color: #272727;
   color: #fff;
   padding: 0.625rem;
-  display: ${(props) => (props.active ? "flex" : "none")};
+  border-bottom-right-radius: 0.625rem;
+  border-bottom-left-radius: 0.625rem;
 `

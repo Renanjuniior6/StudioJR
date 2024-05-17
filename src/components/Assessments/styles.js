@@ -11,7 +11,7 @@ export const Container = styled.div`
   margin: auto;
 
   h2 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.5rem;
     line-height: 2rem;
     color: #f6ae2d;
@@ -25,10 +25,10 @@ export const AssessmentsGroup = styled.div`
   background-color: rgb(245, 245, 245);
   padding: 0.625rem;
   width: 100%;
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
 
   b {
     font-size: 1.125rem;

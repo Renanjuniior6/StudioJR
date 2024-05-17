@@ -9,10 +9,10 @@ export const Container = styled.div`
   padding: 1.5rem 0 1.5rem 0;
   width: 22.875rem;
   background-color: rgb(245, 245, 245);
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
 
   h3 {
     font-size: 1.5rem;
