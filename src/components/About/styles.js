@@ -42,5 +42,4 @@ export const BoldText = styled.b`
   font-weight: 900;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  color: #f6ae2d;
 `

@@ -11,18 +11,24 @@ export const Container = styled.div`
   margin: auto;
 
   h2 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #f6ae2d;
     text-align: center;
+  }
+  hr {
+    margin: auto;
+    width: 50%;
+    border: 1px solid #000;
+    margin-bottom: 1.875rem;
   }
 `
 export const AssessmentsGroup = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  background-color: rgb(245, 245, 245);
+  background-color: #231f20;
+  color: #fff;
   padding: 0.625rem;
   width: 100%;
   border-top-left-radius: 0.625rem;

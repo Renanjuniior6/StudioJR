@@ -26,34 +26,34 @@ function App() {
         <section>
           <Introduction />
         </section>
-        <section>
+        <section id="specialization">
           <Specialization />
         </section>
         <section id="about">
           <About />
         </section>
-        <section>
+        <section id="results">
           <Results />
         </section>
-        <section>
+        <section id="about-space">
           <AboutSpace />
         </section>
-        <section>
+        <section id="services">
           <Services />
         </section>
-        <section>
+        <section id="products">
           <Products />
         </section>
-        <section>
+        <section id="certificates">
           <Certificates />
         </section>
-        <section>
+        <section id="assessments">
           <Assessments />
         </section>
-        <section>
+        <section id="main-questions">
           <MainQuestions />
         </section>
-        <section>
+        <section id="addicional-information">
           <AddicionalInformation />
         </section>
       </main>

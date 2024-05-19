@@ -7,6 +7,7 @@ export function Assessments() {
   return (
     <Container>
       <h2>VEJA NOSSAS AVALIAÇÕES!</h2>
+      <hr />
       <AssessmentsGroup>
         <b>Renan Junior</b>
         <p>

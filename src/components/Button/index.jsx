@@ -4,7 +4,17 @@ import React from "react"
 import { Container } from "./styles"
 
 export function Button({ children, ...rest }) {
-  return <Container {...rest}>{children}</Container>
+  const link = () => {
+    const phone = "5521968697906"
+    const message = "Oi esta é minha mensagem"
+    window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
+  }
+
+  return (
+    <Container onClick={() => link()} {...rest}>
+      {children}
+    </Container>
+  )
 }
 
 Button.propTypes = {

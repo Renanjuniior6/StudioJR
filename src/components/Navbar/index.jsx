@@ -5,7 +5,7 @@ import "bootstrap"
 import "./styles.scss"
 import "./styles.css"
 
-import Logo from "../../../Images/General/Logo-2-preview-copy.png"
+import Logo from "../../../Images/General/Logo-preview-copy.png"
 
 export function Navbar() {
   return (
@@ -44,13 +44,53 @@ export function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#about">
+                <a className="nav-link" aria-current="page" href="#specialization">
+                  Especializações
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#about">
                   Sobre
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
+                <a className="nav-link" aria-current="page" href="#results">
+                  Resultados
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#about-space">
+                  Conheça o espaço
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#services">
+                  Serviços
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#products">
+                  Produtos
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#certificates">
+                  Certificados
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#assessments">
+                  Avaliações
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#main-questions">
+                  Perguntas Frequentes
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#addicional-information">
+                  Informações adicionais
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -61,17 +101,17 @@ export function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Outros
                 </a>
                 <ul className="dropdown-menu dropdown-menu-dark">
                   <li>
                     <a className="dropdown-item" href="#">
-                      Action
+                      Agendamento
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Another action
+                      Cuidados capilares
                     </a>
                   </li>
                   <li>

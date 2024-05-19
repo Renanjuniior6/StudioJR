@@ -1,13 +1,13 @@
 import styled from "styled-components"
 
 export const Container = styled.button`
-  background-color: #f6ae2d;
+  background-color: #231f20;
   color: #fff;
   border: none;
   border-radius: 0.625rem;
   height: 3.125rem;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   padding: 0.625rem;
   display: flex;
   justify-content: center;

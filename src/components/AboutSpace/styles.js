@@ -7,8 +7,9 @@ export const Container = styled.div`
   align-items: center;
   margin: auto;
   padding: 1.5rem 0 1.5rem 0;
-  width: 22.875rem;
-  background-color: rgb(245, 245, 245);
+  width: 98%;
+  background-color: #231f20;
+  color: #fff;
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
   border-bottom-left-radius: 0.625rem;

@@ -8,5 +8,5 @@ export const Container = styled.div`
 `
 export const ImgLogo = styled.img`
   width: 10rem;
-  margin-top: 4.9rem;
+  margin-top: 5rem;
 `

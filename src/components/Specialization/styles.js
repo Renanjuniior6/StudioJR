@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const ClinicImg = styled.img`
   height: 11rem;
-  width: 23.8rem;
+  width: 98%;
   object-fit: cover;
   margin: auto;
   border-top-left-radius: 0.625rem;
@@ -17,13 +17,14 @@ export const ClinicImg = styled.img`
 `
 export const InfoGroup = styled.div`
   text-align: center;
-  width: 23.9rem;
+  width: 98%;
   margin: auto;
   display: flex;
   gap: 2.1875rem;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(245, 245, 247);
+  background-color: #231f20;
+  color: #fff;
   padding: 2.5rem 0 2.5rem 0;
   border-bottom-left-radius: 0.625rem;
   border-bottom-right-radius: 0.625rem;
@@ -34,6 +35,10 @@ export const Title = styled.p`
   text-align: center;
   margin: auto;
   max-width: 23rem;
+
+  b {
+    font-weight: 600;
+  }
 `
 export const InfoText = styled.div`
   h3 {
