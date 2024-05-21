@@ -10,11 +10,7 @@ export function Button({ children, ...rest }) {
     window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
   }
 
-  return (
-    <Container onClick={() => link()} {...rest}>
-      {children}
-    </Container>
-  )
+  return <Container {...rest}>{children}</Container>
 }
 
 Button.propTypes = {

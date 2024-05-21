@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from "react"
 import "bootstrap"
+import { Link } from 'react-router-dom'
 
 import "./styles.scss"
 import "./styles.css"
@@ -105,9 +106,9 @@ export function Navbar() {
                 </a>
                 <ul className="dropdown-menu dropdown-menu-dark">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link to={"/agendamento"} className="dropdown-item" href="#">
                       Agendamento
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">

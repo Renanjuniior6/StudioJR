@@ -1,16 +1,17 @@
 import React, { useState } from "react"
-import Calendar from "react-calendar"
+import DatePicker from "react-date-picker"
 
 import "react-calendar/dist/Calendar.css"
+import "react-date-picker/dist/DatePicker.css"
+import { Container } from "./styles"
 
-export function MyCalendar() {
-  const [value, onChange] = useState(new Date())
-
-  console.log(value)
+export function Date() {
+  const [value, onChange] = useState()
 
   return (
-    <div>
-      <Calendar locale="pt-BR" onChange={onChange} value={value} />
-    </div>
+    <Container>
+      <p>Escolha o dia </p>
+      <DatePicker locale="pt-BR" onChange={onChange} value={value} />
+    </Container>
   )
 }

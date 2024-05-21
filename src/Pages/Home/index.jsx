@@ -16,7 +16,7 @@ import {
   MainQuestions,
 } from "../../components"
 import { Container } from "./styles"
-function App() {
+export function Home() {
   return (
     <Container>
       <header id="home">
@@ -63,5 +63,3 @@ function App() {
     </Container>
   )
 }
-
-export default App
