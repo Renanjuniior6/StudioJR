@@ -22,7 +22,7 @@ export function About() {
         </Content>
         <BoldText>+3000 Cabelos transformados!</BoldText>
       </Text>
-      <Button>
+      <Button to={"/agendamento"}>
         Agende seu horário <CalendarDots size={23} />
       </Button>
     </Container>

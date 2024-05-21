@@ -12,10 +12,6 @@ export const Container = styled.div`
     margin-bottom: 0.75rem;
     border-radius: 0.625rem;
   }
-
-  button {
-    width: 80%;
-  }
 `
 export const Contact = styled.div`
   display: flex;

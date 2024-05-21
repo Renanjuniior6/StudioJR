@@ -21,7 +21,7 @@ export function AddicionalInformation() {
           +55 (21) 96869-7906
         </p>
       </Contact>
-      <Button>
+      <Button to={"/agendamento"} style={{ width: "80%" }}>
         Agende seu horário <CalendarDots size={22} />
       </Button>
     </Container>

@@ -15,6 +15,7 @@ export const Container = styled.button`
   align-items: center;
   gap: 0.3125rem;
   cursor: pointer;
+  text-decoration: none;
 
   &:active {
     opacity: 0.8;

@@ -1,4 +1,6 @@
+import { WhatsappLogo } from "@phosphor-icons/react"
 import React from "react"
+import { Link } from "react-router-dom"
 
 import {
   Introduction,
@@ -19,6 +21,15 @@ import { Container } from "./styles"
 export function Home() {
   return (
     <Container>
+      <a
+        href="https://wa.me/5521968697906"
+        target="_blank"
+        className="zap-box"
+        rel="noreferrer"
+      >
+        <WhatsappLogo style={{ color: "#000" }} size={45} />
+      </a>
+
       <header id="home">
         <Header />
       </header>

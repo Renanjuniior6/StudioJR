@@ -13,7 +13,9 @@ export function Navbar() {
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
+          <Link to={"/"}>
           <img className="Logo-img" src={Logo} alt="Logo" />
+          </Link>
         </a>
         <button
           className="navbar-toggler"
@@ -110,6 +112,7 @@ export function Navbar() {
                       Agendamento
                     </Link>
                   </li>
+                  <hr className="dropdown-divider" />
                   <li>
                     <a className="dropdown-item" href="#">
                       Cuidados capilares
@@ -117,11 +120,6 @@ export function Navbar() {
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
                   </li>
                 </ul>
               </li>

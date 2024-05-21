@@ -13,10 +13,6 @@ export const Container = styled.div`
     border-radius: 0.625rem;
     object-fit: cover;
   }
-
-  button {
-    width: 85%;
-  }
 `
 export const Text = styled.div`
   text-align: center;
