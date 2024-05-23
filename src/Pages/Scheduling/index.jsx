@@ -63,6 +63,7 @@ export function Scheduling() {
         <input
           className="form-control"
           type="date"
+          placeholder="Escolha uma data"
           {...register("date")}
           aria-label="default input example"
         />
