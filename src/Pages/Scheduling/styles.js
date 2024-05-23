@@ -7,6 +7,10 @@ export const Container = styled.div`
   justify-content: center;
   height: 100vh;
   gap: 0.625rem;
+
+  button {
+    font-size: 1rem;
+  }
 `
 
 export const Form = styled.form`

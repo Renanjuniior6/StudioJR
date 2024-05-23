@@ -1,6 +1,5 @@
 import { WhatsappLogo } from "@phosphor-icons/react"
 import React from "react"
-import { Link } from "react-router-dom"
 
 import {
   Introduction,
@@ -19,6 +18,11 @@ import {
 } from "../../components"
 import { Container } from "./styles"
 export function Home() {
+  // window.onscroll = () => {
+  //   if (window.scrollY > 400) {
+  //   }
+  // }
+
   return (
     <Container>
       <a

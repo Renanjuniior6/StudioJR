@@ -99,7 +99,6 @@ export function Navbar() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -108,13 +107,13 @@ export function Navbar() {
                 </a>
                 <ul className="dropdown-menu dropdown-menu-dark">
                   <li>
-                    <Link to={"/agendamento"} className="dropdown-item" href="#">
+                    <Link to={"/agendamento"} className="dropdown-item">
                       Agendamento
                     </Link>
                   </li>
                   <hr className="dropdown-divider" />
                   <li>
-                    <Link to={"/cuidados-capilares"} className="dropdown-item" href="#">
+                    <Link to={"/cuidados-capilares"} className="dropdown-item">
                       Cuidados capilares
                     </Link>
                   </li>

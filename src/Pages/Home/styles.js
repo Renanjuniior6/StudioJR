@@ -10,8 +10,8 @@ export const Container = styled.div`
     width: 3.4375rem;
     background-color: #fff;
     position: fixed;
-    bottom: 0.9375rem;
-    right: 0.9375rem;
+    bottom: 0.4375rem;
+    right: 0.5rem;
     z-index: 999;
     border-radius: 3.125rem;
     display: flex;
