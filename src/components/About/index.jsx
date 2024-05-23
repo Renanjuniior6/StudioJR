@@ -1,5 +1,6 @@
 import { CalendarDots } from "@phosphor-icons/react"
 import React from "react"
+import { Link } from "react-router-dom"
 
 import PersonImg from "../../../Images/Person/joyce-01.jpeg"
 import { Button } from "../Button"
@@ -22,9 +23,14 @@ export function About() {
         </Content>
         <BoldText>+3000 Cabelos transformados!</BoldText>
       </Text>
-      <Button to={"/agendamento"}>
-        Agende seu horário <CalendarDots size={23} />
-      </Button>
+      <Link
+        style={{ width: "100%", textDecoration: "none" }}
+        to={"/agendamento"}
+      >
+        <Button>
+          Agende seu horário <CalendarDots size={23} />
+        </Button>
+      </Link>
     </Container>
   )
 }

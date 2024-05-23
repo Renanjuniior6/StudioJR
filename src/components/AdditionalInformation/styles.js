@@ -39,3 +39,13 @@ export const Contact = styled.div`
     justify-content: center;
   }
 `
+export const SocialBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+
+  svg {
+    color: #000;
+  }
+`

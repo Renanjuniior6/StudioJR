@@ -16,7 +16,7 @@ export const Form = styled.form`
   justify-content: center;
   gap: 1.25rem;
   padding: 1.25rem;
-  width: 80%;
+  width: 88%;
   border-radius: 0.625rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 

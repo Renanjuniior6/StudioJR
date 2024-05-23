@@ -10,17 +10,13 @@ import "./styles.scss"
 
 export function Scheduling() {
   const schema = Yup.object().shape({
-    name: Yup.string().required("O nome é obrigatório"),
-    service: Yup.string().required("A campo obrigatório"),
-    date: Yup.string().required("Data obrigatória"),
-    hour: Yup.string().required("Escolha um horário"),
+    name: Yup.string().required(),
+    service: Yup.string().required(),
+    date: Yup.string().required(),
+    hour: Yup.string().required(),
   })
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm({
+  const { register, handleSubmit } = useForm({
     resolver: yupResolver(schema),
   })
 
@@ -68,7 +64,6 @@ export function Scheduling() {
           className="form-control"
           type="date"
           {...register("date")}
-          placeholder="Escolha uma data"
           aria-label="default input example"
         />
         <select
@@ -100,6 +95,7 @@ export function Scheduling() {
           <option>18:00</option>
           <option>18:30</option>
           <option>19:00</option>
+          <option>19:30</option>
         </select>
         <Button type="submit">Enviar</Button>
       </Form>

@@ -114,9 +114,9 @@ export function Navbar() {
                   </li>
                   <hr className="dropdown-divider" />
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link to={"/cuidados-capilares"} className="dropdown-item" href="#">
                       Cuidados capilares
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />

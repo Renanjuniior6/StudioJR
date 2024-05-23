@@ -12,7 +12,7 @@ export const Container = styled.div`
     position: fixed;
     bottom: 0.9375rem;
     right: 0.9375rem;
-    z-index: 99999;
+    z-index: 999;
     border-radius: 3.125rem;
     display: flex;
     align-items: center;
