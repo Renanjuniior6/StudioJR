@@ -1,6 +1,7 @@
 import { yupResolver } from "@hookform/resolvers/yup"
 import React from "react"
 import { useForm } from "react-hook-form"
+import { useNavigate } from "react-router-dom"
 import * as Yup from "yup"
 
 import "bootstrap"
@@ -9,6 +10,8 @@ import { Container, Form } from "./styles"
 import "./styles.scss"
 
 export function Scheduling() {
+  const navigate = useNavigate()
+
   const schema = Yup.object().shape({
     name: Yup.string().required(),
     service: Yup.string().required(),
@@ -29,12 +32,12 @@ export function Scheduling() {
     })
     Data.date = date
     const message = encodeURIComponent(
-      `Agendamento Studio JR:\n-${Data.name}\n-${Data.service}\n-${Data.date}\n-${Data.hour}`,
+      `Agendamento Studio JR:\nOlá! me chamo ${Data.name}\nGostaria de realizar o serviço de ${Data.service}\nPara o dia ${Data.date}\nNo horário de ${Data.hour}`,
     )
 
-    window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
+    navigate("/")
 
-    console.log(Data)
+    window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
   }
 
   return (
@@ -60,13 +63,15 @@ export function Scheduling() {
           <option value="Escova">Escova</option>
           <option value="Hidratação">Hidratação</option>
         </select>
-        <input
-          className="form-control"
-          type="date"
-          placeholder="Escolha uma data"
-          {...register("date")}
-          aria-label="default input example"
-        />
+        <div className="Datebox">
+          <label>Escolha uma data</label>
+          <input
+            className="form-control"
+            type="date"
+            {...register("date")}
+            aria-label="default input example"
+          />
+        </div>
         <select
           {...register("hour")}
           className="form-select"

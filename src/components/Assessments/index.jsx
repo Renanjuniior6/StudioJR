@@ -24,7 +24,7 @@ export function Assessments() {
         </StarGroup>
       </AssessmentsGroup>
       <AssessmentsGroup>
-        <b>Camylla Vitória</b>
+        <b>Fernando</b>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
           pariatur nisi necessitatibus reprehenderit, inventore dignissimos

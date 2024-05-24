@@ -10,7 +10,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Router />
     </BrowserRouter>
-
     <GlobalStyle />
   </React.StrictMode>,
 )

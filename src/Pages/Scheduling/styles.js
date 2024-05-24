@@ -11,6 +11,17 @@ export const Container = styled.div`
   button {
     font-size: 1rem;
   }
+
+  .Datebox {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+
+    label {
+      margin-left: 0.3125rem;
+    }
+  }
 `
 
 export const Form = styled.form`
