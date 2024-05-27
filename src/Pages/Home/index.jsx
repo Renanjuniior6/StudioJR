@@ -18,7 +18,7 @@ import {
 } from "../../components"
 import { Container, Links } from "./styles"
 export function Home() {
-  const [changeLink, setChangeLink] = useState(false)
+  const [changeLink, setChangeLink] = useState(true)
 
   window.onscroll = () => {
     if (window.scrollY < 9100) {
