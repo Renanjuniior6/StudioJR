@@ -1,5 +1,5 @@
-import { WhatsappLogo } from "@phosphor-icons/react"
-import React from "react"
+import { WhatsappLogo, ArrowCircleUp } from "@phosphor-icons/react"
+import React, { useState } from "react"
 
 import {
   Introduction,
@@ -16,23 +16,31 @@ import {
   Certificates,
   MainQuestions,
 } from "../../components"
-import { Container } from "./styles"
+import { Container, Links } from "./styles"
 export function Home() {
-  // window.onscroll = () => {
-  //   if (window.scrollY > 400) {
-  //   }
-  // }
+  const [changeLink, setChangeLink] = useState(false)
+
+  window.onscroll = () => {
+    if (window.scrollY < 9100) {
+      setChangeLink(true)
+    } else {
+      setChangeLink(false)
+    }
+  }
 
   return (
     <Container>
-      <a
+      <Links
         href="https://wa.me/5521968697906"
         target="_blank"
-        className="zap-box"
         rel="noreferrer"
       >
-        <WhatsappLogo style={{ color: "#000" }} size={45} />
-      </a>
+        <WhatsappLogo size={45} />
+      </Links>
+
+      <Links change={changeLink} href="#home">
+        <ArrowCircleUp size={45} />
+      </Links>
 
       <header id="home">
         <Header />
