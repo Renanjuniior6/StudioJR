@@ -31,6 +31,7 @@ export const Title = styled.h3`
   }
 `
 export const Content = styled.p`
+  text-align: center;
   width: 20rem;
   font-size: 0.875rem;
 `

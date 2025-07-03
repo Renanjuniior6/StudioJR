@@ -29,35 +29,35 @@ export function Products() {
         <SwiperSlide>
           <BoxProduct>
             <img src={prd1} alt="Imagem do produto" />
-            <h3>Produto X</h3>
+            <h3>Shampoo</h3>
           </BoxProduct>
         </SwiperSlide>
         <SwiperSlide>
           {" "}
           <BoxProduct>
             <img src={prd2} alt="Imagem do produto" />
-            <h3>Produto X</h3>
+            <h3>Máscara Capilar</h3>
           </BoxProduct>
         </SwiperSlide>
         <SwiperSlide>
           {" "}
           <BoxProduct>
             <img src={prd3} alt="Imagem do produto" />
-            <h3>Produto X</h3>
+            <h3>Kit Siege </h3>
           </BoxProduct>
         </SwiperSlide>
         <SwiperSlide>
           {" "}
           <BoxProduct>
             <img src={prd4} alt="Imagem do produto" />
-            <h3>Produto X</h3>
+            <h3>Máscara e condicionador</h3>
           </BoxProduct>
         </SwiperSlide>
         <SwiperSlide>
           {" "}
           <BoxProduct>
             <img src={prd5} alt="Imagem do produto" />
-            <h3>Produto X</h3>
+            <h3>Serie Expert tonalizante</h3>
           </BoxProduct>
         </SwiperSlide>
       </Swiper>

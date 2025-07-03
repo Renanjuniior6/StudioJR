@@ -1,7 +1,7 @@
 import { SealCheck } from "@phosphor-icons/react"
 import React from "react"
 
-import Saloon from "../../../Images/General/consultorio-02.webp"
+import Saloon from "../../../Images/General/saloon-1.jpg"
 import { Container, Box, TextGroup, SpaceImg } from "./styles"
 
 export function AboutSpace() {
@@ -13,7 +13,7 @@ export function AboutSpace() {
         <TextGroup>
           <b>Ambiente Acolhedor</b>
           <p>
-            Projetada para proporcionar aos pacientes uma atmosfera acolhedora e
+            Projetada para proporcionar aos clientes uma atmosfera acolhedora e
             reconfortante.
           </p>
         </TextGroup>
@@ -21,10 +21,10 @@ export function AboutSpace() {
       <Box>
         <SealCheck size={90} style={{ color: "#f6ae2d" }} />
         <TextGroup>
-          <b>Tecnologia de Ponta</b>
+          <b>Equipamentos de Ponta</b>
           <p>
             Equipada com tecnologia de última geração, para melhor atender
-            nossos pacientes.
+            nossos clientes.
           </p>
         </TextGroup>
       </Box>
@@ -33,8 +33,7 @@ export function AboutSpace() {
         <TextGroup>
           <b>Abordagem Personalizada</b>
           <p>
-            O plano de tratamento é cuidadosamente adaptado às necessidades
-            individuais.
+            O tratamento é cuidadosamente adaptado às necessidades individuais.
           </p>
         </TextGroup>
       </Box>
@@ -43,7 +42,7 @@ export function AboutSpace() {
         <TextGroup>
           <b>Pós-Tratamento Excepcional</b>
           <p>
-            A Dra. Lauren está sempre disponível para responder a dúvidas e
+            A Joyce Rodrigues está sempre disponível para responder a dúvidas e
             fornecer orientações.
           </p>
         </TextGroup>

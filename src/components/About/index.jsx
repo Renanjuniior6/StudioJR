@@ -14,12 +14,19 @@ export function About() {
         <Title>
           Sobre a <b>Joyce Rodrigues</b>
         </Title>
-        <p>CEP 23059540 – RJ</p>
         <Content>
-          Em um mundo onde cada sorriso é único, a Dra. Lauren Mitchell traz sua
-          paixão e experiência para moldar sorrisos brilhantes e confiantes. Com
-          mais de 10 anos de dedicação à Ortodontia, ela se destaca como uma
-          especialista comprometida em transformar não apenas dentes, mas vidas.
+          Natural do Rio de Janeiro formada pela Academia Hair School
+          Internacional, como cabeleireira Técnica Internacional, com
+          especialidade em Transformação Química (lisos e ondulantes),
+          Colorimetria, Cosmetologia e Terapeuta Capilar. O maior diferencial do
+          Studio de Joyce Rodrigues é a acessibilidade à mulher negra,
+          oferecendo tratamentos especializados em transformação química (lisos
+          e ondulantes), respeitando a performance própria do fio e atendendo às
+          necessidades da cliente. Iniciei minha jornada como cabeleireira com
+          apenas 16 anos, através de uma oportunidade que me foi dada. A partir
+          de então, busquei me especializar e assim conquistei minha formação,
+          especialmente, com transformação química, área em que mais me destaco
+          e sou reconhecida.
         </Content>
         <BoldText>+3000 Cabelos transformados!</BoldText>
       </Text>

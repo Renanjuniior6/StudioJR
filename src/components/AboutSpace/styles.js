@@ -49,4 +49,5 @@ export const TextGroup = styled.div`
 `
 export const SpaceImg = styled.img`
   width: 86%;
+  border-radius: 15px;
 `

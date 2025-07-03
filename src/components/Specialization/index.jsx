@@ -13,38 +13,45 @@ export function Specialization() {
           Especialidades de <b>Joyce Rodrigues</b>
         </Title>
         <InfoText>
-          <h3>Inovação digital</h3>
+          <h3>Alisamento Premium</h3>
           <p>
-            Utilização de tecnologias avançadas para criar planos de tratamento
-            personalizados.
+            Utilização dos melhores produtos do mercado e tratamento especial no
+            seu cabelo.
           </p>
         </InfoText>
         <InfoText>
-          <h3>Ortodontia Preventiva</h3>
-          <p>Intervenções precoces para prevenir problemas ortodônticos.</p>
-        </InfoText>
-        <InfoText>
-          <h3>Tratamento Discreto</h3>
+          <h3>Terapia capilar</h3>
           <p>
-            Especialização em opções estéticas para correção de forma discreta e
-            confortável.
+            Análise das condições dos fios e do couro cabeludo indentificando
+            problemas e indicação de tratamento adequado.
           </p>
         </InfoText>
         <InfoText>
-          <h3>Cuidado Infantil</h3>
-          <p>Intervenções precoces para prevenir problemas ortodônticos.</p>
-        </InfoText>
-        <InfoText>
-          <h3>Harmonia Maxilar</h3>
+          <h3>Pigmentação especializada</h3>
           <p>
-            Abordagem que visa precisamente corrigir desarmonias na posição dos
-            maxilares.
+            Especialização em pigmentação com as melhores técnicas e tendências
+            do mercado.
           </p>
         </InfoText>
         <InfoText>
-          <h3>Integração Cirúrgica</h3>
+          <h3>Cortes dedicados</h3>
           <p>
-            Colaboração com cirurgiões bucomaxilofaciais para casos cirúrgicos.
+            Cortes de cabelo usando técnicas avançadas de alinhamento e modelos
+            de acordo com as condições do cliente.{" "}
+          </p>
+        </InfoText>
+        <InfoText>
+          <h3>Sobrancelhas</h3>
+          <p>
+            Desing de sobrancelhas e pigmentação de renna com alinhamento ao
+            rosto.
+          </p>
+        </InfoText>
+        <InfoText>
+          <h3>Soltura de cachos</h3>
+          <p>
+            Soltura de cachos com os melhores produtos do mercado e atenção
+            especial aos seu cabelos.
           </p>
         </InfoText>
       </InfoGroup>

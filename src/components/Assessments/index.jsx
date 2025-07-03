@@ -9,11 +9,11 @@ export function Assessments() {
       <h2>VEJA NOSSAS AVALIAÇÕES!</h2>
       <hr />
       <AssessmentsGroup>
-        <b>Renan Junior</b>
+        <b>Jaqueline Barbosa</b>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
-          pariatur nisi necessitatibus reprehenderit, inventore dignissimos
-          nobis laudantium sed id architecto
+          "Simplesmente maravilhoso! Fui muito bem atendida desde a recepção até
+          o final. Meu cabelo ficou incrível, e o ambiente é super acolhedor.
+          Voltarei com certeza!"
         </p>
         <StarGroup>
           <Star weight="fill" size={25} style={{ color: "yellow" }} />
@@ -24,11 +24,11 @@ export function Assessments() {
         </StarGroup>
       </AssessmentsGroup>
       <AssessmentsGroup>
-        <b>Fernando</b>
+        <b>Aline Santos</b>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
-          pariatur nisi necessitatibus reprehenderit, inventore dignissimos
-          nobis laudantium sed id architecto
+          "A Joyce é muito competente e atenciososa. Fiz o cabelo e a
+          sobrancelha, e amei o resultado! O salão é limpo, organizado e
+          transmite confiança."
         </p>
         <StarGroup>
           <Star weight="fill" size={25} style={{ color: "yellow" }} />
@@ -39,11 +39,11 @@ export function Assessments() {
         </StarGroup>
       </AssessmentsGroup>
       <AssessmentsGroup>
-        <b>Isabella Vitória</b>
+        <b>Letícia Alves</b>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
-          pariatur nisi necessitatibus reprehenderit, inventore dignissimos
-          nobis laudantium sed id architecto
+          "A experiência foi excelente! Me senti cuidada em cada detalhe. O
+          corte e hidratação deixaram meu cabelo leve e brilhante. Super
+          recomendo!"
         </p>
         <StarGroup>
           <Star weight="fill" size={25} style={{ color: "yellow" }} />

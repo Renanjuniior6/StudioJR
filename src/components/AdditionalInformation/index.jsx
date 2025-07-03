@@ -21,7 +21,7 @@ export function AddicionalInformation() {
         <h3>Studio Joyce Rodrigues - JR</h3>
         <p>
           <MapPin size={32} />
-          Rua Professor Souza Moreira, 20 - Inhoaíba, CG - RJ
+          Rua A, 7 - Inhoaíba, CG - RJ
         </p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.68931890220165!2d-43.59573651057605!3d-22.912297397878753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be463df7ff9af%3A0x7ab14d10001477cf!2sR.%20Prof.%20Souza%20Moreira%2C%2099%20-%20Inhoa%C3%ADba%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023059-540!5e0!3m2!1spt-BR!2sbr!4v1716382264051!5m2!1spt-BR!2sbr"

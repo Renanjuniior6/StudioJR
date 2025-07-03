@@ -10,13 +10,13 @@ export function Cares() {
       <h1>Cuidados com o seu cabelo</h1>
       <hr />
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste esse
-        eligendi, debitis rem reiciendis, sed repellendus dolore nulla saepe
-        alias quia unde voluptate officiis ipsam velit accusantium porro fugit
-        incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Perferendis enim totam voluptatum sint vel aperiam, itaque magni aliquam
-        alias facere, cum labore ex accusamus reprehenderit perspiciatis! Sint
-        ea repudiandae aliquam.
+        Manter os cuidados com o cabelo é tão importante quanto hidratar o corpo
+        e o rosto. A higiene correta traz diversos benefícios, como brilho,
+        maciez, maleabilidade, saúde e força aos fios. No entanto, para ter
+        cabelos bonitos e saudáveis, os cuidados precisam ser diários. O uso de
+        produtos adequados, a ordem correta de tratamentos, o cronograma capilar
+        bem pensado e a frequência correta de lavagem compõem uma rotina
+        perfeita para as madeixas.
       </p>
     </Container>
   )
