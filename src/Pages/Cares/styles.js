@@ -29,6 +29,7 @@ export const Container = styled.div`
 
   p {
     text-align: center;
+    margin-bottom: 4rem;
     width: 90%;
   }
 `

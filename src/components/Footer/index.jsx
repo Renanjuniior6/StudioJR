@@ -8,7 +8,7 @@ export function Footer() {
     <Container>
       <img src={Logo} alt="Logo-do-rodapé" />
       <p>
-        ®️ 2024 Joyce Rodrigues - Todos os direitos reservados. Desenvolvido por
+        ®️ 2025 Joyce Rodrigues - Todos os direitos reservados. Desenvolvido por
         Renan Junior
       </p>
     </Container>

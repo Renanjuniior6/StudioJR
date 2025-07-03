@@ -8,9 +8,10 @@ export const Container = styled.div`
 
   img {
     width: 23rem;
-    height: 17rem;
+    height: 21rem;
     margin-bottom: 0.75rem;
     border-radius: 0.625rem;
+    object-fit: cover;
   }
 `
 export const Contact = styled.div`
