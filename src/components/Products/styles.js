@@ -13,7 +13,7 @@ export const Container = styled.div`
 
     img {
       width: 85%;
-      height: 85%;
+      height: 16rem;
     }
     h3 {
       position: absolute;
